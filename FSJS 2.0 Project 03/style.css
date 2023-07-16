@@ -1,0 +1,143 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+.navbar-container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+.list{
+    list-style: none;
+    display: flex;
+   
+}
+.list-item{
+    margin: 10px;
+    font: 1.3em sans-serif;
+}
+.button-group{
+    display: flex;
+    
+
+}
+.search-icon{
+    margin: 10px;
+}
+.nav-button{
+    
+    margin: 10px;
+    padding: 10px 30px ;
+    border-radius: 10px;
+    font-size: large;
+    color: #4b4949;
+    background-color: #ffffff;
+    font: 1.3em sans-serif;
+}
+.hero-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+span{
+    position: absolute;
+}
+.square {
+    left: 200px;
+    top: 278px;
+    z-index: -1;
+    
+}
+.square img{
+    height: 250px;
+   width: 200px;
+}
+.person-hero-iamge img {
+    /* position: absolute; */
+   height: 400px;
+   width: 300px;
+    
+}
+.star1{
+    left: 855px;  
+}
+.star2{
+    top: 350px;
+    left: 450px;
+    
+}
+.star1 img{
+    width: 40px;
+}
+.star2 img{
+    width: 40px; 
+}
+.star img{
+    height: 40px;
+}
+.globe{
+    left: 555px;  
+}
+.globe img{
+    height: 40px;
+}
+.hero-container-right{
+    width: 60%;
+}
+.hero-heading{
+    font: 3em sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 70%;
+
+    
+}
+.hero-description{
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50px;
+    color: #7c7474;
+}
+.button-email{
+    font: 1em sans-serif;
+    color: #7c7474;
+    border-radius: 7px;
+    padding: 0px 20px;
+    margin-left: 150px;
+
+}
+.button-join{
+    font: 1em sans-serif;
+    color: #ffffff;
+    border-radius: 7px;
+    padding: 0px 20px;
+    background-color: black;
+}
+.contact-heading{
+    color: #7c7474;
+    font: 1em sans-serif;
+    margin-left: 250px;
+
+}
+.icons span{
+    left: 54% ;
+}
+.facebook-icon img{
+    width: 30px;
+}
+    
+.messenger-icon img {
+    margin-left: 40px;
+    width: 30px;
+}
+.instagram-icon img{
+    margin-left: 80px;
+    width: 30px;
+}
+.whatsapp-icon img{
+    margin-left: 120px;
+    width: 30px;
+}
+li:hover{
+    color: #ffffff;
+    background-color: black;
+}
